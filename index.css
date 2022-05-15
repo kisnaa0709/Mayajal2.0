@@ -1,0 +1,334 @@
+body{
+    background-color: #cccccc;
+    margin: 0%;
+    background-image: url("img/hacked\ .gif" );
+}
+.mode{
+    border: 0px solid black;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 2vw;
+    right: 3vw;
+}
+img.mode{
+    width: 5vw;
+    height: 5vw;
+}
+img:hover{
+    cursor: pointer;
+    transform: rotateZ(-360deg);
+}
+:root{
+    --primary-color: green;
+    --secondary-color:black;
+}
+.dark-theme{
+    --primary-color: black;
+    --secondary-color:green;
+}
+header{
+    margin: 4px;
+    height: 4vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+header div{
+    padding: .5vw;
+    font-family: monospace;
+    font-size: 2vw;
+    font-weight: 800;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 4px solid var(--primary-color);
+    box-shadow: 10px white;
+    align-self: center;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.nav{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav div{
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: .2vw;
+    margin-right: .7vw;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.nav div:hover{
+    cursor: pointer;
+    font-weight: 600;
+    background-color:var(--primary-color) ;
+    color: var(--secondary-color); 
+    border: 2px solid var(--secondary-color);
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+main2{
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+    height:30%;
+    background-color: var(--secondary-color) ;
+    display: flex;
+    flex-direction: row;
+}
+.border{
+    width: 100%;
+    display: flex;
+    margin: 3px;
+    border: 3px solid var(--primary-color);
+}
+#first{
+    font-family: monospace;
+    font-weight: 600;
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid var(--primary-color);
+}
+h1{
+    font-size: 2vw;
+    color: var(--primary-color);
+    font-family: monospace;
+    font-weight: 600;
+}
+h2{
+    font-size: 1.8vw;
+    color: var(--primary-color);
+    margin: 0%;              
+    font-family: monospace;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5vw;
+    color: var(--primary-color);
+    font-family: monospace;
+    font-weight: 600;
+    margin: 0%;
+}
+h4{
+    font-size: 1.1vw;
+    color: var(--primary-color);
+    font-family: monospace;
+    font-weight: 900;
+}
+.first1{
+    margin-bottom: 1.5vw;
+}
+.first2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hello{
+    margin-bottom: 1.5vw;
+    margin-top: 1.5vw;
+}
+hr{
+    width: 70%;
+    border: 1px solid var(--primary-color);
+}
+.hr{
+    width: 80%;
+    background-color: var(--primary-color);
+    margin-top: .5vw;
+    margin-bottom:.5vw ;
+    margin-right: 8vw;
+    padding-left: 1vw;
+}
+.pill{
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.pill1{
+    margin-left:5vw;
+    margin-right:1vw;
+    padding: 5px;
+    border: 2px solid var(--primary-color);
+}
+.pill2{
+    margin-left:1vw;
+    margin-right: 5vw;
+    padding: 5px;
+    border: 2px solid var(--primary-color);
+}
+.pill1:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.pill2:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#second{
+    color: var(--primary-color);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 40px;
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--primary-color);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1vw;
+}
+input[type="text"],
+input[type="date"],
+select,
+textarea{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1.7vw;
+    font-size: 1vw;
+    width:20vw;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+}
+::placeholder{
+    color: var(--primary-color);
+}
+input[type="submit"] {
+    font-size: 2vw;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 1vw;
+    width: 10vw;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+footer{
+    width: 30vw;
+    padding: .1vw;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5vw;
+    font-weight:700 ;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    right: 35%;
+
+}
+@media(max-width: 900px) {
+    #first{
+        display: none;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        padding-top: 10%
+    }
+    main2{
+        font-family: monospace;
+        font-weight: 600;
+        text-align: center;
+        width: 60%;
+        background-color: var(--secondary-color) ;
+    }
+    .border{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 3px;
+        border: 3px solid var(--primary-color);
+    }
+    #second{
+        width: 80%;
+        border: 0px;
+    }
+    form{
+
+    }
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea{
+    height: 2vw;
+    font-size: 1.5vw;
+    width:30vw;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    }
+    ::placeholder{
+        color: var(--primary-color);
+    }
+    select{
+        height: 2.5vw;
+        color: var(--primary-color);
+    }
+    h2{
+        font-size: 2.5vw;
+    }
+    h3{
+        font-size: 2.5vw;
+        padding: .1rem;
+    }
+    input{
+        margin : .1rem;
+        vertical-align: baseline;
+        text-align: center;
+        height: 2vw;
+        padding: .2vw;
+    }
+    .hr{
+        width: 90%;
+    }
+    .nav{
+        margin: 1%;
+        margin-top: 5%;
+    }
+    .nav div{
+        font-size: 2.5vw;
+    }
+    header div{
+        font-size: 2.5vw;
+        margin-top: 1vw;
+    }
+    input[type="submit"]{
+        font-weight: bold;
+        font-size: 2.5vw;
+        margin-top: .75vw;
+        padding: 1vw;
+        padding-bottom: 3.5vw; 
+        text-align: center; 
+    }
+
+    
+}
